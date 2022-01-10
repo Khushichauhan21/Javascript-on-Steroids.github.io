@@ -1,0 +1,165 @@
+/*challenge 1:your age in days*/
+.container-1{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container1{
+    border:1px solid black;
+    display: flex;
+    padding:10px;
+  flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.flex-box-container1 div{
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+/*challenge 2:cat generator*/
+.container-2{
+    border:1px solid black;
+    text-align: center;
+    width: 75%;
+    margin:0 auto;
+}
+.flex-box-container-2{
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+  
+
+}
+.flex-box-container-2 img{
+margin:10px;
+box-shadow:0px 10px 50px rgba(0,0,0,0.7);
+
+}
+
+/* challenge 3:rock , paper, scissors */
+.container-3{
+    border: 1px solid black;
+    margin:0 auto;
+    width:75%;
+    text-align: center;
+}
+.flex-box-rps{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding:10px;
+    
+}
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50,233,1);
+
+}
+
+
+/* style flex-box-rps divs */
+
+/* challenge:4 Change the color of all buttons */
+.container-4{
+    border:1px solid black;
+    margin:0 auto;
+    width:75%;
+    text-align: center;
+}
+.flex-box-pick-color{
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding:10px;
+
+}
+
+/* challenge-5 blackjack */
+
+.container-5{
+    width:75%;
+    margin:0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-1{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+.flex-blackjack-row-2{
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.flex-blackjack-row-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding:10px;
+    border: 1px solid black;
+}
+
+.flex-blackjack-row-1 ,.flex-blackjack-row-2{
+    
+
+background:url('https://cdn.hipwallpaper.com/i/46/65/hEiUkp.jpg')center;
+color:#ffffff;
+
+
+}
+
+.flex-blackjack-row-1 div{
+    border: 1px solid black;
+    padding: 10px;
+    height: 350px;
+    flex:1;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+  
+    
+    width:25%;
+    padding: 10px;
+    
+    }
+    
+.flex-blackjack-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+
+
+}
+
+.flex-blackjack-row-2 div{
+    border:1px solid black;
+    padding: 10px;
+}
+
+table , th ,td{
+padding: 5px;
+border: 1px solid black;
+}
